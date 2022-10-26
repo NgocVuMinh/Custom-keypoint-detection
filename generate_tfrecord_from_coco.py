@@ -86,19 +86,11 @@ logger = tf.get_logger()
 logger.setLevel(logging.INFO)
 
 _COCO_KEYPOINT_NAMES = [
-    b'plier_right_handle', b'plier_left_handle', b'plier_middle',
-    b'plier_right_head', b'plier_left_head'
+    b'tip'
 ]
 
 _COCO_PART_NAMES = [
-    b'torso_back', b'torso_front', b'right_hand', b'left_hand', b'left_foot',
-    b'right_foot', b'right_upper_leg_back', b'left_upper_leg_back',
-    b'right_upper_leg_front', b'left_upper_leg_front', b'right_lower_leg_back',
-    b'left_lower_leg_back', b'right_lower_leg_front', b'left_lower_leg_front',
-    b'left_upper_arm_back', b'right_upper_arm_back', b'left_upper_arm_front',
-    b'right_upper_arm_front', b'left_lower_arm_back', b'right_lower_arm_back',
-    b'left_lower_arm_front', b'right_lower_arm_front', b'right_face',
-    b'left_face',
+    b'dauchong'
 ]
 
 _DP_PART_ID_OFFSET = 1
